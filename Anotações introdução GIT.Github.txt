@@ -1,0 +1,39 @@
+dir - lista de diretórios contidos na pasta q estivermos situados
+cd / - navega para um local específico (cd + nomedapasta)
+cd .. - para retroceder um nível
+cls - limpar a tela / limpar o terminal
+*tab tem a função de autocompletar (especialmente pastas e arquivos)
+mkdir - cria uma pasta (mkdir + nome / make a directory)
+echo - devolve o escrito p/ a tela, quando associado ao > pode ser colodado dentro de um arquivo, inclusive um arquivo recém criado. ex.: echo hello > hello.txt p/ criar arquivo txt c/ conteúdo "hello"
+del + algo para deletar ARQUIVOS (del + nome da pasta p/ deletar arquivos dentro da pasta)
+rmdir - para remover o repositório: rmdir workspace /S /Q
+git status - diz o status do arquivo
+mv #talcoisa ./ #outracoisa - move o arquivo p/ outro lugar 
+git config --list para listar suas configurações, inclusive email, nome etc
+q para sair 
+git config --global --unset ___ - para apagar os dados, depois basta adicionar novamente 
+
+adicionando no github c/ git bash
+1) faz tudo no github 
+2) copia url do github
+3) codes bash:
+
+git remote add origin (cola url)
+
+git push origin master 
+
+enter 
+
+-----
+conflitos 
+git pull origin master 
+- abre, vê quais edições sao importantes e commita novamente 
+add *
+commit -m " "
+
+
+----
+
+clonar codigos 
+1) copia do github
+2) git clone (url)
